@@ -1,5 +1,6 @@
-name: "Free Disk Space (Ubuntu)"
-description: "A configurable GitHub Action to free up disk space on an Ubuntu GitHub Actions runner."
+# This is a fork from: https://github.com/jlumbroso/free-disk-space
+name: "Free GitHub Action Disk Space (Ubuntu)"
+description: "**This is a fork from `jlumbroso/free-disk-space` with some improvements**. A configurable GitHub Action to free up disk space on an Ubuntu GitHub Actions runner."
 
 # See: https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions#branding
 branding:
