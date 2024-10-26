@@ -1,4 +1,4 @@
-# Free GitHub Action Disk Space (Ubuntu)
+# Free GitHub Actions Disk Space (Ubuntu)
 
 > [!NOTE]
 > This repo is a fork from repo [`jlumbroso/free-disk-space`](https://github.com/jlumbroso/free-disk-space) with some improvements.
@@ -6,8 +6,6 @@
 > Thanks to the original author for his efforts.
 > 
 > Original Marketplace link: [Free Disk Space (Ubuntu)](https://github.com/marketplace/actions/free-disk-space-ubuntu)
-
-# GitHub Actions to Free Disk Space on Ubuntu runners
 
 A customizable GitHub Actions to free disk space on Linux GitHub Actions runners.
 
@@ -20,7 +18,7 @@ Also, please ⭐️ the repo if you like this GitHub Actions! Thanks! 😊
 ## Example
 
 ```yaml
-name: Free Disk Space (Ubuntu)
+name: Free GitHub Actions Disk Space (Ubuntu)
 on: push
 
 jobs:
@@ -28,14 +26,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: Free Disk Space (Ubuntu)
+    - name: Free GitHub Actions Disk Space (Ubuntu)
       uses: coder-xiaomo/free-disk-space@main
       with:
         # this might remove tools that are actually needed if set to "true"
         tool-cache: false
         
-        # all of these default to true and will be cleared,
-        # so set to "false" if necessary for your workflow
+        # all of these default to true and will be cleared, so set to "false"
+        # if necessary for your workflow
         android: true
         dotnet: true
         haskell: true
